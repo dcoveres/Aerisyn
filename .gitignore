@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+env/
+.pytest_cache/
+
+# Секреты и окружение
+.env
+*.key
+server_private.key
+certs/
+
+# БД
+*.db
+*.sqlite
+*.sqlite3
+
+# Хранилища (файлы пользователей, стикеры, загрузки)
+storage/
+
+# Логи
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
